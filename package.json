@@ -1,0 +1,32 @@
+{
+  "name": "thefirstproject",
+  "version": "1.0.0",
+  "description": "thefirstproject",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ta82544/project1.git"
+  },
+  "keywords": [
+    "first"
+  ],
+  "author": "tobi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ta82544/project1.git/issues"
+  },
+  "homepage": "https://github.com/ta82544/project1#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.23",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
